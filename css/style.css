@@ -113,7 +113,7 @@ Author URI: http://www.andon-design.com/
     text-align:center;
 }
 #pm-shadow {
-    background: transparent url(../common-images/trans-shadow.png) no-repeat scroll 0 100%;
+    background: transparent url(../styles/common-images/trans-shadow.png) no-repeat scroll 0 100%;
     width: 940px;
     height: 300px;
     margin: -260px auto 0;
