@@ -6,20 +6,26 @@ Version: 1.0
 Author: Andon
 Author URI: http://www.andon-design.com/
 */
+/*body{
+    background-image: url("images/backgound.png"); position: absolute;
 
 
+}
+*/
+#home-page-content{
+    background-color: #ffffff;
+}
 #wrapper-1 {
     display: table;
-    position: relative;
     width: 100%;
-    background: #ffffff repeat-x scroll left top;
+    background-image: url("images/backgound.png"); position: absolute;
 }
 /* Begin Top area (Logo and Search) */
 #top {
 
-    height: 55px;
     position: relative;
     z-index: 100;
+    background-color: #ffffff;
 }
 
 #logo {
@@ -148,6 +154,7 @@ Author URI: http://www.andon-design.com/
     width: 960px;
     height: 360px;
     z-index: 100;
+    padding: 18px;
 }
 #c1-slider {
     position: relative;
